@@ -7,7 +7,7 @@ const NavigationInApp = () => {
     return(
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={ClientLandingPage} />
+                <Route path="https://wrfmixo.github.io/gttech/" element={ClientLandingPage} />
             </Routes>
         </BrowserRouter>
     )
