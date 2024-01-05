@@ -22,6 +22,7 @@ const ClientNavbar = () => {
                                     <Search className="navbar-icons" color="inherit"/>
                                 </InputAdornment>
                             }
+                            style={{ width: "600px", marginLeft: "300px"}}
                         />
 
 

@@ -7,7 +7,7 @@ const NavigationInApp = () => {
     return(
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<ClientLandingPage />} />
+                <Route path="/gttech" element={<ClientLandingPage />} />
             </Routes>
         </BrowserRouter>
     );
