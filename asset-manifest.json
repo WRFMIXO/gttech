@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/gttech/static/css/main.b1d7ec7b.css",
-    "main.js": "/gttech/static/js/main.5315978f.js",
+    "main.js": "/gttech/static/js/main.fcc6e664.js",
     "index.html": "/gttech/index.html",
     "main.b1d7ec7b.css.map": "/gttech/static/css/main.b1d7ec7b.css.map",
-    "main.5315978f.js.map": "/gttech/static/js/main.5315978f.js.map"
+    "main.fcc6e664.js.map": "/gttech/static/js/main.fcc6e664.js.map"
   },
   "entrypoints": [
     "static/css/main.b1d7ec7b.css",
-    "static/js/main.5315978f.js"
+    "static/js/main.fcc6e664.js"
   ]
 }
