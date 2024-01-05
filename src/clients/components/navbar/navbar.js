@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import { Container, Navbar } from "react-bootstrap";
-import { IconButton, Toolbar } from "@mui/material";
-import { MenuIcon } from "@mui/icons-material";
+import { IconButton, Toolbar, InputBase, InputAdornment } from "@mui/material";
+import { Menu as MenuIcon, Fullscreen, Notifications, Brightness3, Mail, AccountCircle, LogoutRounded, Search } from "@mui/icons-material";
 
 const ClientNavbar = () => {
-    const [search, setSearch] = useState("");
     
     return(
         <Navbar bg="light" variant="light" className="clientNavbar">
@@ -13,6 +12,44 @@ const ClientNavbar = () => {
                     <IconButton edge="start" color="inherit">
                         <MenuIcon className="clientNavbarIcons" />
                     </IconButton>
+
+                    <div className="ms-auto">
+
+                        <InputBase 
+                            placeholder="Faites une recherche ..."
+                            startAdornment = {
+                                <InputAdornment position="start">
+                                    <Search className="navbar-icons" color="inherit"/>
+                                </InputAdornment>
+                            }
+                        />
+
+
+                        <IconButton color="inherit">
+                            <Fullscreen className="navbar-icons"/>
+                        </IconButton>
+
+                        <IconButton color="inherit">
+                            <Notifications className="navbar-icons"/>
+                        </IconButton>
+
+                        <IconButton color="inherit">
+                            <Brightness3 className="navbar-icons"/>
+                        </IconButton>
+
+                        <IconButton color="inherit">
+                            <Mail className="navbar-icons"/>
+                        </IconButton>
+
+                        <IconButton color="inherit">
+                            <AccountCircle className="navbar-icons"/>
+                        </IconButton>
+
+                        <IconButton color="inherit">
+                            <LogoutRounded className="navbar-icons" color="secondary"/>
+                        </IconButton>
+
+                    </div>
                 </Toolbar>
             </Container>
         </Navbar>

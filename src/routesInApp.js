@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import React, { useState } from "react";
+import React from "react";
 import ClientLandingPage from "./clients/views/Landing";
 
 const NavigationInApp = () => {
@@ -7,8 +7,10 @@ const NavigationInApp = () => {
     return(
         <BrowserRouter>
             <Routes>
-                <Route path="https://wrfmixo.github.io/gttech/" element={ClientLandingPage} />
+                <Route path="/" element={<ClientLandingPage />} />
             </Routes>
         </BrowserRouter>
-    )
-}
+    );
+};
+
+export default NavigationInApp;
